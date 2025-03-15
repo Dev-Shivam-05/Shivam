@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background-color: tan;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.main > a {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
+
+.main > a > span{
+    font-size: 36px;
+    font-weight: bold;
+    color: grey;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}

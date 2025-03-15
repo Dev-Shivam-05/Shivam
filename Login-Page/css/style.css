@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/bg-image.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.main {
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: absolute;
+    height: 500px;
+    width: 430px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+}
+
+.main form h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    
+}
+
+.main form input {
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+.main form input[placeholder="Enter Your Username"] {
+    font-size: large;
+    font-weight: bold;
+    color: #000;
+}
+
+.main form input[placeholder="Enter Your Password"] {
+    font-size: large;
+    font-weight: bold;
+    color: #000;
+}
+
+.main form >:nth-child(3) input {
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+}
+
+.main form label a{
+    font-size: large;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.main form button {
+    width: 100%;
+    height: 30px;
+    margin-top: 50px;
+    font-size: large;
+    font-weight: bold;
+}

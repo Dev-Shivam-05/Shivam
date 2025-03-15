@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video & Audio</title>
+</head>
+<body>
+    <div>
+        <section class="iframe">
+            <div class="online">
+                
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HWjCStB6k4o?si=uYTx7r3GK6OkMgf3&amp;start=14" title="YouTube video player"></iframe>
+            <br/>
+            <video class="offline" width="600px" height="600px" controls muted autoplay loop>
+                <source src="./video/video.mp4" type="video/mp4" rel="video"/>
+            </video>
+            <br/>
+            <audio class="offline" controls muted loop>
+                <source src="./audio/invisible-piano-music-201838.mp3" type="audio/mp3" rel="audio"/>
+            </audio>
+            </div>
+
+            <hr/>
+            <hr/>
+
+            <video class="offline-1" height="450px" width="600px" controls muted autoplay loop>
+                <source src="./video/video-1.mp4" type="video/mp4" rel="video"/>
+            </video>
+            <video class="offline-2" height="450px" width="600px" controls muted autoplay loop>
+                <source src="./video/video-3.mp4" type="video/mp4" rel="video"/>
+            </video>
+            <video class="offline-3" height="450px" width="600px" controls muted autoplay loop>
+                <source src="./video/video-3.mp4" type="video/mp4" rel="video"/>
+            </video>
+            <video class="offline-4" height="450px" width="600px" controls muted autoplay loop>
+                <source src="./video/video-4.mp4" type="video/mp4" rel="video"/>
+            </video>
+            <video class="offline-5" height="450px" width="600px" controls muted autoplay loop>
+                <source src="./video/video-5.mp4" type="video/mp4" rel="video"/>
+            </video>
+            <video class="offline-6" height="450px" width="600px" controls muted autoplay loop>
+                <source src="./video/video-6.mp4" type="video/mp4" rel="video"/>
+            </video>
+
+            <form>
+                <table border="2px" align="center">
+                    <caption><font color="blue" fontsize="20px">login form</font></caption>
+                    <tbody>
+                        <!-- first row start -->
+                        <tr>
+                            <td>
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter Your Full Name"/>
+                            </td>
+                        </tr>
+                        <!-- first row end -->
+
+                        <!-- Second row started -->
+                        <tr>
+                            <td>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Enter Your Email Address">
+                            </td>
+                        </tr>
+                        <!-- second row ended -->
+
+                        <!-- third row started -->
+                         <tr>
+                            <td>
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" placeholder="Enter Your Password">
+                            </td>
+                         </tr>
+                         <!-- third row Ended -->
+
+                         <!-- Fourth row started -->
+                          <tr>
+                            <td>
+                                <label for="gender">Gender</label>
+                                <label for="male">Male</label>
+                                <input type="radio" name="gender" id="male">
+                                <label for="female">Female</label>
+                                <input type="radio" name="gender" id="female">
+                            </td>
+                          </tr>
+                          <!-- fourth row ended -->
+                           <tr>
+                            <td>
+                                <button type="submit">
+                                    submit
+                                </button>
+                            </td>
+                           </tr>
+                    </tbody>
+                </table>
+            </form>
+
+
+
+        </section>
+    </div>
+</body>
+</html>
